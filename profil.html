@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>belajar css</title>
+	<style type="">html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+body {
+	background-image: url('https://th.bing.com/th/id/OIP.4aSlfBkaDfOMORALha6YEgHaF7?rs=1&pid=ImgDetMain');
+    background-size: cover;
+    background-position: center;
+}
+
+/*footer*/
+.simple-footer {
+	background-image: url('https://th.bing.com/th/id/OIP.iehs2mxhKHwifMtiw9Ab1AHaDj?w=300&h=168&c=7&r=0&o=5&dpr=1.3&pid=1.7');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 50px 0;
+    font-size: 14px;
+}
+
+.simple-footer a, p {
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+    font-style: Aptos;
+}
+
+.simple-footer a:hover {
+    text-decoration: underline;
+    background-color: #333;
+    color: white;
+    border-radius: 7%;
+}
+
+.layar-lebar {
+	background-image: url('https://th.bing.com/th/id/OIP.iehs2mxhKHwifMtiw9Ab1AHaDj?w=300&h=168&c=7&r=0&o=5&dpr=1.3&pid=1.7');
+    background-size: cover;
+    background-position: center;
+	width: 99vw;
+	height: 100px;
+	position: absolute;
+	top: 0;
+}
+
+#judul-web {
+	padding: 20px;
+	text-align: center;
+	line-height: 1px;
+
+}
+
+#judul-web h1 {
+	font-family: Ink Free;
+	font-size: 45px;
+	letter-spacing: 5px;
+}
+#judul-web h5 {
+	font-style: Tw Cen MT;
+}
+
+.menu {
+	width: 99vw;
+	height: 30px;
+	background-color: rgb(173, 216, 230);
+	position: absolute;
+	top: 100px;
+	text-align: center;
+
+}
+
+.menu a:hover {
+	color: white;
+	width: 100px;
+    height: 100px;
+    background-color:#333;
+    border-radius: 7%;
+    text-decoration: none;
+ }
+
+ .menu a {
+ 	font-family: Comic Sans MS;
+ 	text-decoration:none ;
+ }
+
+.kontainer {
+	display: flex; /* Membuat div di dalamnya bersebelahan */
+    justify-content: space-between; /* Mengatur jarak antara dua div */
+    gap: 10px; /* Menambahkan jarak antar kotak */
+    padding: 100px;
+    margin: 40px;
+
+}
+
+.kotak {
+	width: 50%;
+            height: 300px;
+            background-color: silver;
+            border-radius: 7px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 10px;
+}
+
+.kotak2 {
+	width: 45%;
+            height: 180px;
+            background-color: silver;
+            border-radius: 7px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 10px;
+            text-align: left;
+            
+}
+
+.foto {
+	display flex: ;
+	position: absolute;
+	top: 100px;
+	text-align: center;
+	width: 500px;
+	height: 260px;
+	margin: 60px;
+}
+
+
+</style>
+</head>
+<body>
+	<header class="layar-lebar">
+		<div id="judul-web">
+			<h1>PROFIL</h1>
+			<h5 ></h5>
+	    </div>
+	</header>
+
+	<nav class="menu">
+		<div>
+			<a href="index.html">HOME</a>
+			<a href="profil.html">PROFIL</a>
+			<a href="kontak.html">KONTAK</a>
+
+		</div>
+	</nav>
+
+	<article class="kontainer">
+		<div class="kotak">
+			<img class="foto" src="https://th.bing.com/th/id/OIP.fQlKpBwcb98HyhVOssYEUwHaFj?w=257&h=193&c=7&r=0&o=5&dpr=1.3&pid=1.7">
+        </div>
+		</div>
+		<div class="kotak2">
+            <div>
+                <h1>FAIZ</h1>
+                <p>nama saya faiz azham el fahrezy, saya adalah kemen rider(superhero)
+                </p>
+            </div>
+        </div>        
+	</article>
+	<footer class="simple-footer">
+        <p>&copy; 2024 FAIZ WEB. Semua hak dilindungi undang-undang.</p>
+        <a href="index.html">HOME</a>
+    </footer>
+
+</body>
+</html>
